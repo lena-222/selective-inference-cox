@@ -1,6 +1,4 @@
 # selective-inference-cox
-Simulation study code for inference after variable selection in Cox proportional hazards models, comparing sample splitting, selective inference, and debiased Lasso approaches.
-
 This repository contains code accompanying the paper
 "Statistical inference after variable selection in Cox models: A simulation study".
 
