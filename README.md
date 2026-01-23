@@ -29,7 +29,7 @@ METABRIC breast cancer cohort.
 
 ## Reproducibility
 
-All simulation results, tables, and figures reported in the manuscript and Supplementary
+All simulation results reported in the manuscript and Supplementary
 Material can be reproduced using the scripts provided in this repository.
 Random seeds are set to ensure reproducibility.
 
