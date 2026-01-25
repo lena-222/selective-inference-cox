@@ -29,13 +29,10 @@ METABRIC breast cancer cohort.
 
 ## Setup (run once)
 
-This project needs CRAN + Bioconductor packages.
-
-Install R (>= 4.2 recommended) and Rtools (Windows).
-
+This project needs CRAN + Bioconductor packages. Install R (>= 4.2 recommended) and Rtools (Windows).
 Run the setup script once:
 
-source("scripts/00_setup_packages.R")
+`source("scripts/00_setup_packages.R")`
 
 Data download (automatic, cached)
 
@@ -43,7 +40,7 @@ Clinical METABRIC data is pulled from cBioPortal and cached locally:
 
 cache folder: data_raw/cbioportal/
 
-main cached file: metabric_clinical.rds
+main cached file: `metabric_clinical.rds`
 
 To refresh the cache, set force = TRUE in the data loader call.
 ## Reproducibility
