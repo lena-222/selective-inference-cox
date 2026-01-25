@@ -27,11 +27,39 @@ Performance is evaluated in terms of:
 In addition, the repository contains code for the real-data analysis based on the
 METABRIC breast cancer cohort.
 
+## Setup (run once)
+
+This project needs CRAN + Bioconductor packages.
+
+Install R (>= 4.2 recommended) and Rtools (Windows).
+
+Run the setup script once:
+
+source("scripts/00_setup_packages.R")
+
+Data download (automatic, cached)
+
+Clinical METABRIC data is pulled from cBioPortal and cached locally:
+
+cache folder: data_raw/cbioportal/
+
+main cached file: metabric_clinical.rds
+
+To refresh the cache, set force = TRUE in the data loader call.
 ## Reproducibility
 
 All simulation results reported in the manuscript and Supplementary
 Material can be reproduced using the scripts provided in this repository.
 Random seeds are set to ensure reproducibility.
 
-Details on how to run the simulations and regenerate the results are documented in the
-corresponding scripts.
+The code is written in R and relies on standard packages for survival analysis,
+penalized regression, parallel computation, and selective inference, including
+survival, glmnet, selectiveInference, and related dependencies.
+All package versions used in the experiments are documented via `sessionInfo()`.
+
+
+Depending on the number of Monte Carlo repetitions, reproducing the full simulation
+study may require several hours of computation.
+
+The code is written in R and relies on standard survival analysis and selective inference
+packages.
