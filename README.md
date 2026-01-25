@@ -38,7 +38,7 @@ Data download (automatic, cached)
 
 Clinical METABRIC data is pulled from cBioPortal and cached locally:
 
-cache folder: data_raw/cbioportal/
+cache folder: `data_raw/cbioportal/`
 
 main cached file: `metabric_clinical.rds`
 
