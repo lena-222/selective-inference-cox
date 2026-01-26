@@ -130,7 +130,7 @@ A typical run script follows the same high-level steps:
 ## Example: running a generic simulation
 
 ```
-Rscript run_analyze_res2.R \
+Rscript run_analyze_toy.R \
   --beta_type=realistic --n=200 --p=20 --n_sim=200 \
   --dist=weibull --rho=0.1 --target_censoring=0.3 \
   --lambda_choice=cv --alpha=0.10
@@ -147,7 +147,7 @@ Depending on your setup, you may run one of:
   - `sim_design=metabric_real` (subsampling/bootstrapping from the real cohort, not used within the simulation study)
 
 ```
-Rscript run_analyze_meta2.R \
+Rscript run_analyze_metabric.R \
   --sim_design=metabric_weibph_truth --n=200 --n_sim=200 \
   --target_censoring=0.1 --lambda_choice=fix --alpha=0.10
 ```
