@@ -1,4 +1,4 @@
-# Statistical inference after variable selection in Cox models: a neutral simulation study
+﻿# Statistical inference after variable selection in Cox models: a neutral simulation study
 
 This repository contains the R code accompanying the published simulation study:
 
@@ -10,21 +10,21 @@ The study compares inference procedures after variable selection in Cox regressi
 
 ```text
 .
-├── README.md
-├── CITATION.cff
-├── docs/
-│   └── PORTABILITY_CHANGES.md
-└── code/
-    ├── analyze_all_meta.R
-    ├── analyze_toy_sim.R
-    ├── run_analyze_meta.R
-    ├── run_analyze_toy.R
-    ├── example.R
-    ├── config/
-    ├── helpers/
-    ├── scripts/
-    ├── data_raw/
-    └── results/
+â”œâ”€â”€ README.md
+â”œâ”€â”€ CITATION.cff
+â”œâ”€â”€ docs/
+â”‚   â””â”€â”€ PORTABILITY_CHANGES.md
+â””â”€â”€ code/
+    â”œâ”€â”€ analyze_all_meta.R
+    â”œâ”€â”€ analyze_toy_sim.R
+    â”œâ”€â”€ run_analyze_meta.R
+    â”œâ”€â”€ run_analyze_toy.R
+    â”œâ”€â”€ example.R
+    â”œâ”€â”€ config/
+    â”œâ”€â”€ helpers/
+    â”œâ”€â”€ scripts/
+    â”œâ”€â”€ data_raw/
+    â””â”€â”€ results/
 ```
 
 ## Main entry points
@@ -98,13 +98,10 @@ If you use this code, please cite the accompanying article. Citation metadata ar
 
 ## License
 
-No software license is assigned in this repository at present. Unless a license is added by the authors, reuse is governed by applicable copyright law and the terms of the published article/data sources.
-
-## License
-
 The source code in this repository is licensed under the MIT License.
 See [LICENSE](LICENSE) for details.
 
 This license applies to the source code and repository-specific configuration
 files only. It does not grant rights to third-party datasets, external
 software, or the published article.
+
