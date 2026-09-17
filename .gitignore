@@ -1,0 +1,33 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw/public source data: download locally, do not commit
+code/data_raw/*
+!code/data_raw/README.md
+!code/data_raw/cbioportal/
+code/data_raw/cbioportal/*
+!code/data_raw/cbioportal/README.md
+
+# Generated results and example outputs
+code/results/*
+!code/results/.gitkeep
+code/example/
+
+# Simulation outputs
+*_raw.rds
+*_outs.rds
+*_perf_beta.csv
+*_meta.txt
+
+# Temporary files
+*.tmp
+*.log

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Code for: Statistical inference after variable selection in Cox models: a neutral simulation study"
+message: "If you use this code, please cite the accompanying article."
+type: software
+authors:
+  - family-names: Schemet
+    given-names: Lena
+  - family-names: Friedrich-Welz
+    given-names: Sarah
+year: 2026
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Schemet
+      given-names: Lena
+    - family-names: Friedrich-Welz
+      given-names: Sarah
+  title: "Statistical inference after variable selection in Cox models: a neutral simulation study"
+  journal: "BMC Medical Research Methodology"
+  year: 2026
+  volume: 26
+  issue: 1
+  start: 143
+  doi: 10.1186/s12874-026-02887-0
