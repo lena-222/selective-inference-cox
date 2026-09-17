@@ -99,3 +99,12 @@ If you use this code, please cite the accompanying article. Citation metadata ar
 ## License
 
 No software license is assigned in this repository at present. Unless a license is added by the authors, reuse is governed by applicable copyright law and the terms of the published article/data sources.
+
+## License
+
+The source code in this repository is licensed under the MIT License.
+See [LICENSE](LICENSE) for details.
+
+This license applies to the source code and repository-specific configuration
+files only. It does not grant rights to third-party datasets, external
+software, or the published article.
